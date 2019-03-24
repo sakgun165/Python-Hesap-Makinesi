@@ -8,7 +8,7 @@ print("""
 """)
 liste=list()
 while(True):
-    islem=input("İşlemi giriniz:")
+    islem=input()
     yedek1=int(islem[0])
     yedek2=int(islem[-1])
     liste=[yedek1,islem[1],yedek2]
